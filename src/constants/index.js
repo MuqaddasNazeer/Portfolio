@@ -37,9 +37,23 @@ import {
   AiFillHtml5,
   AiOutlineGitlab,
 } from "react-icons/ai";
-
+import { 
+  FaNodeJs
+ } from "react-icons/fa";
+import { TbBrandCSharp } from "react-icons/tb";
 import {
   SiDjango,
+  SiPandas,
+  SiNumpy,
+  SiTensorflow,
+  SiExpress,
+  SiClickup,
+  SiSlack,
+  SiPostgresql,
+  SiJira,
+  SiPhpmyadmin,
+  SiNestjs,
+  SiMongodb,
   SiJavascript,
   SiBootstrap,
   SiReact,
@@ -206,13 +220,13 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
+        icon: SiPython,
+        name: "Python",
       },
       {
         id: "pl-2",
-        icon: SiPython,
-        name: "Python",
+        icon: TbBrandCSharp,
+        name: "C Sharp",
       },
       {
         id: "pl-3",
@@ -221,44 +235,19 @@ export const skills = [
       },
       {
         id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-8",
         icon: AiFillHtml5,
         name: "HTML",
       },
       {
-        id: "pl-9",
+        id: "pl-5",
         icon: DiCss3,
         name: "CSS",
       },
       {
-        id: "pl-10",
+        id: "pl-6",
         icon: SiJavascript,
         name: "JavaScript",
       },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
     ],
   },
   {
@@ -266,58 +255,63 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
-      },
-      {
-        id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "f-3",
         icon: SiReact,
         name: "ReactJS",
       },
       {
-        id: "f-4",
+        id: "f-2",
         icon: SiBootstrap,
         name: "Bootstrap",
       },
       {
+        id: "f-3",
+        icon: SiDotnet,
+        name: ".NET",
+      },
+      {
+        id: "f-4",
+        icon: SiNestjs,
+        name: "NestJS",
+      },
+      {
         id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: FaNodeJs,
+        name: "Node.js",
       },
       {
         id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
+        icon: SiExpress,
+        name: "Express.js",
       },
     ],
   },
   {
-    title: "Tools",
+    title: "Databases",
     items: [
       {
         id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
+        icon: SiMongodb,
+        name: "Mongodb",
       },
       {
         id: "t-2",
         icon: SiMysql,
         name: "MySQL",
+      },
+    ],
+  },
+  {
+    title: "Tools & Platforms",
+    items: [
+      {
+        id: "t-1",
+        icon: SiFigma,
+        name: "Figma",
+      },
+      {
+        id: "t-2",
+        icon: SiClickup,
+        name: "Clickup",
       },
       {
         id: "t-3",
@@ -341,8 +335,8 @@ export const skills = [
       },
       {
         id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
+        icon: SiSlack,
+        name: "Slack",
       },
       {
         id: "t-8",
@@ -351,8 +345,8 @@ export const skills = [
       },
       {
         id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
+        icon: SiJira,
+        name: "Jira",
       },
     ],
   },
@@ -404,6 +398,31 @@ export const experiences = [
           },
           {
             text: "~  Collaborated with a Cross-Functional Team, enhancing website performance, troubleshooting issues, and implementing client requirements efficiently.",
+            link: ""
+          }
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Google Developer Student Club (GDSC)",
+    logo: gdsc,
+    link: "",
+    positions: [
+      {
+        title: "Desktop App Developer",
+        duration: "November 2023 – August 2024",
+        content: [
+          {
+            text: "~ Developed Robust Desktop Applications using the .NET Framework and Windows Forms, ensuring functional and user-friendly software solutions tailored to GDSC’s needs.",
+            link: ""
+          },
+          {
+            text: "~  Optimized Application Performance & UI/UX, implementing efficient event-driven programming and structured database integration for enhanced usability.",
+            link: ""
+          },
+          {
+            text: "~  Collaborated with Cross-Functional Teams, contributing to troubleshooting, debugging, and feature enhancements while assisting members in problem-solving and software optimization.",
             link: ""
           }
         ],
