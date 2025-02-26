@@ -30,15 +30,19 @@ const Hero = () => {
             Hi there!
             <br className="sm:block hidden" /> I am
           </h1>
+          
 
           <div className="ss:flex hidden md:mr-4 mr-0">
             <LetsConnect />
           </div>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] leading-[80px] w-full">
+        {/* <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] leading-[80px] w-full">
           <span className="text-gradient">{aboutMe.name}</span>
-        </h1>
+        </h1> */}
+        <h1 className="font-poppins font-semibold ss:text-[47px] text-[37px] text-white ss:leading-[80px] leading-[80px] w-full">
+  <span className="text-gradient">{aboutMe.name}</span>
+</h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           {aboutMe.intro}
         </p>

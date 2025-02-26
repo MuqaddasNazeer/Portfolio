@@ -171,7 +171,7 @@ export const achievements = [
     content1: "Project Exhibition Module",
     content2: "Recognized for participation in Pakistan's leading tech event at UET Lahore",
     content3: "Showcased an innovative project in the Project Exhibition Module",
-    article: "https://www.linkedin.com/posts/mittal-parth_super-stoked-to-announce-that-our-team-emerged-activity-7274735259621961729-tkq4?utm_source=share&utm_medium=member_desktop",
+    article: "",
     project: "https://drive.google.com/file/d/1SO95AkG77uQyjy5rLZq1Bt_RJFy6tVZQ/view?usp=sharing",  },
   {
     id: "a-2",
@@ -873,7 +873,7 @@ export const aboutMe = {
     name: "Muqaddas Nazeer",
     githubUsername: 'MuqaddasNazeer',
     tagLine: "Software Engineer | Ex-Intern TIERS LTD | .Net Framework | Mern Stack Developer | UET'25",
-    intro: "Software Developer from Pakistan who is either busy improving his craft or pondering over the next big idea."
+    intro: "A Passionate Software Developer, always learning, always growing—driven by curiosity and the joy of building meaningful solutions."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
