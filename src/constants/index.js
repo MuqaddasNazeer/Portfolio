@@ -22,6 +22,7 @@ import {
   polkadot,
   lightspeed,
   dennisivy,
+  utc,
   manipal,
   icon,
   ethforall,
@@ -85,7 +86,11 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiGithub,
+  SiCsharp,
+  SiHtml5,
+  SiCss3
 } from "react-icons/si";
 
 import {
@@ -208,6 +213,16 @@ export const achievements = [
     content2: "Explored essential freelancing skills, marketplace strategies, and client management techniques.",
     content3: "Gained valuable insights into building a successful career in the freelance industry.",
     project: "https://drive.google.com/file/d/1t6e1psubYTcsm_E0sJwCui11rfVbAXCq/view?usp=sharing",
+  },
+  {
+    id: "a-5",
+    icon: utc,
+    event: "TechXplore’23 | Ultimate Tech Crew",
+    position: "Participant (Online Event)",
+    content1: "Successfully attended TechXplore’23, an online event by Ultimate Tech Crew.",
+    content2: "Gained insights into emerging technologies and industry best practices.",
+    content3: "Explored sessions on Generative AI, DevOps, Career Development, and Security on Google Cloud.",
+    project: "https://drive.google.com/file/d/15lLYWqdEj-jRXd90BRz0JPgoiRsMB1he/view?usp=sharing",
   },
   
   
@@ -548,12 +563,12 @@ export const projects = [
   },
   {
     id: "project-4",
-    title: "Samsotech Table Management System",
+    title: "Library Management System",
     github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+    link: "https://github.com/MuqaddasNazeer/Lms-with-9sorting-algorithms-in-csharp",
     image: placeicon,
     content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
+      "A .NET Framework and ASP.NET Core desktop application for streamlined library management, featuring intuitive book tracking, automated record-keeping, and optimized search efficiency using OOP principles and nine sorting algorithms.",
     stack: [
       {
         id: "icon-1",
@@ -562,65 +577,74 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
+        icon: SiCsharp,
+        name: "C#"
+      },
+      {
+        id: "icon-2",
+        icon: SiVisualstudiocode,
+        name: "Visual Studio"
       },
       {
         id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
+        icon: SiGithub,
+        name: "Github"
       },
     ],
   },
   {
     id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
+    title: " Eduto E-learning Platform ",
+    github: "https://github.com/contactAbdullahAamir/EduTo",
     image: recruitment,
     content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
+      " Built a responsive e-learning website that includes student, teacher, and course management modules.– Enhanced user interaction by implementing AJAX for real-time updates, resulting in a more engaging platform.",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiHtml5,
+        name: "HTML"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiCss3,
+        name: "CSS"
       },
       {
         id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
+        icon: SiJavascript,
+        name: "Javascript"
+      },
+      {
+        id: "icon-4",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-5",
+        icon: SiPhpmyadmin,
+        name: "Php"
+      },
+      {
+        id: "icon-6",
+        icon: SiMysql,
+        name: "Mysql"
       },
     ],
   },
   {
     id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
+    title: "Automatic Spare-Parts Management System",
+    github: "https://github.com/MuqaddasNazeer/Automatic-Spare-Parts-Management-System",
+    link: "",
     image: cdc,
     content:
-      "The official website of CDC, NITK with a custom built CMS.",
+      "Developed a web application for managing spare parts, streamlining inventory processes, and reducing manual errors. Implemented SQL-based database solutions to ensure accurate tracking of stock and transactions.",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiDotnet,
+        name: "Asp.Net"
       },
       {
         id: "icon-2",
@@ -632,138 +656,20 @@ export const projects = [
         icon: SiJavascript,
         name: "JavaScript"
       },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
       {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
+        id: "icon-3",
+        icon: SiHtml5,
+        name: "Html"
       },
       {
         id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
-    content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiCsharp,
+        name: "C#"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiMysql,
+        name: "Mysql"
       },
     ],
   },
