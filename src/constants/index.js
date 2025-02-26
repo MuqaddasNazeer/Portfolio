@@ -436,12 +436,11 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
+    title: "The Exporter's Loom",
+    github: "https://github.com/KhadimHussainDev/TheExportersLoom-Apis",
     image: comicify_ai,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "A mobile application that connects skilled workers with potential clients, offering seamless job listings, booking, and service management for an efficient and reliable hiring experience.!",
     stack: [
       {
         id: "icon-1",
@@ -450,34 +449,38 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiNestjs,
+        name: "NestJS"
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
+        icon: SiPostgresql,
+        name: "PostgreSQL"
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
+        icon: SiFigma,
+        name: "Figma"
       },
       {
         id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiJira,
+        name: "Jira"
+      },
+      {
+        id: "icon-6",
+        icon: SiVisualstudiocode,
+        name: "Visual Studio"
       },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
+    title: "StayHub",
+    github: "https://github.com/MuqaddasNazeer/Stay-Hub",
     image: greentrust,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "Developed a full-stack hotel management system with real-time booking, customer management, and invoicing features. Ensured efficient data management and application stability using MongoDB for the back-end.",
     stack: [
       {
         id: "icon-1",
@@ -486,75 +489,61 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiMongodb,
+        name: "MongoDB"
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
+        icon: SiExpress,
+        name: "Express.js"
       },
       {
         id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: FaNodeJs,
+        name: "Node.js"
       },
       {
         id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
+        icon: SiVisualstudiocode,
+        name: "Visual Studio"
       },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
+
     ],
   },
   {
     id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
+    title: "Phishing Detection System",
+    github: "https://github.com/MuqaddasNazeer/Phishing-Detection-System",
     image: chargeswap,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+      "Developed a web application utilizing machine learning algorithms to detect phishing emails with 95% accuracy. Built the back-end using Flask and integrated Scikit-learn for machine learning tasks to identify malicious content.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiFlask,
+        name: "Flask"
       },
       {
         id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
+        icon: SiPython,
+        name: "Python"
       },
       {
         id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity"
+        icon: SiPandas,
+        name: "Pandas"
       },
       {
         id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
+        icon: SiNumpy,
+        name: "Numpy"
       },
       {
         id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: SiVisualstudiocode,
+        name: "Visual Studio Code"
       },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
+      
     ],
   },
   {
